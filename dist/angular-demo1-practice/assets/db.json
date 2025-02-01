@@ -1,0 +1,48 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Student1",
+      "contact": 1010101010,
+      "marks": 92.3,
+      "username": "qwe111",
+      "password": "1111111"
+    },
+    {
+      "id": "2",
+      "name": "Student2",
+      "contact": 2121212121,
+      "marks": 84.23,
+      "username": "stu2",
+      "password": "222"
+    },
+    {
+      "id": "3",
+      "name": "Student3",
+      "contact": 3131313131,
+      "marks": 75.34,
+      "username": "stu3",
+      "password": "333"
+    },
+    {
+      "id": "4",
+      "name": "Student444",
+      "contact": 4141414141,
+      "marks": 83.45,
+      "username": "stu4",
+      "password": "444"
+    }
+  ],
+  "coures": [
+    {
+      "cname": "Java",
+      "fees": 50000,
+      "id": "b691"
+    },
+    {
+      "cname": "Angular",
+      "fees": 75000,
+      "id": "af3f"
+    }
+  ]
+}

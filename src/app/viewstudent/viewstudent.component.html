@@ -1,0 +1,27 @@
+<!-- <p>viewstudent works!</p> -->
+
+<div class="container">
+    <table class="table table-bordered table-hover" border="1">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>CONTACT</th>
+            <th>MARKS</th>
+            <th>USERNAME</th>
+            <th colspan="2">ACTION</th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let st of students">
+          <tr>
+            <td>{{st.id}}</td>
+            <td>{{st.name}}</td>
+            <td>{{st.contact}}</td>
+            <td>{{st.marks}}</td>
+            <td>{{st.username}}</td>
+            <td><input class="btn btn-primary" type="button" (click)="editStudent(st.id)" value="EDIT"></td>
+            <td><input class="btn btn-warning" type="button" (click)="removeStudent(st.id)" value="DELETE"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>

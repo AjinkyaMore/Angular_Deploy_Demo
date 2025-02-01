@@ -1,0 +1,21 @@
+<!-- <p>addstudent works!</p> -->
+
+<div class="container" style="width: 700px;">
+    <br>
+    <h3>STUDENT REGISTRATION</h3>
+    <hr>
+  <form [formGroup]="studentForm" (ngSubmit)="registerStudent()">
+      <input type="number" class="form-control" placeholder="Enter Id" formControlName="id"> <br>
+      <input type="text" class="form-control" placeholder="Enter Name" formControlName="name"> <br>
+      <input type="number" class="form-control" placeholder="Enter Contact" formControlName="contact"> <br>
+      <input type="number" class="form-control" placeholder="Enter Marks" formControlName="marks"> <br> 
+      <input type="text" class="form-control" placeholder="Enter Username" formControlName="username"> <br>
+      <input type="text" class="form-control" placeholder="Enter Password" formControlName="password"> <br>
+      <br>
+    
+      <input class="btn btn-success" style="width: 700px;" type="submit" value="REGISTER">
+    </form>
+    </div>
+    <br>
+    <hr>
+    <br>
